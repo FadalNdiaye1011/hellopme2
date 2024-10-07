@@ -1,0 +1,921 @@
+@font-face {
+    font-family: "inter-light";
+    src: url("../font/Inter-Light.woff2") format("woff2"), url("../font/Inter-Light.woff") format("woff");
+}
+@font-face {
+    font-family: "inter-medium";
+    src: url("../font/Inter-Medium.woff2") format("woff2"), url("../font/Inter-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "inter-regular";
+    src: url("../font/Inter-Regular.woff2") format("woff2"), url("../font/Inter-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "inter-semi-bold";
+    src: url("../font/Inter-SemiBold.woff2") format("woff2"), url("../font/Inter-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-family: "inter-bold";
+    src: url("../font/Inter-Bold.woff2") format("woff2"), url("../font/Inter-Bold.woff2") format("woff");
+}
+
+
+body {
+    background-color: #EFEFEF !important;
+    font-family: "inter-regular";
+}
+
+.navbar-modife{
+    background: white !important;
+}
+.btn-inscription{
+    border-radius: 8px !important;
+    background-color: #F5C362 !important;
+    color: #272726 !important;
+    font-size: 15px !important;
+    padding: 10px 20px !important;
+    font-family: "inter-semi-bold";
+}
+.navbar-modife .nav-link {
+    color: #272727 !important;
+    font-weight: 500;
+}
+.lngg .btn-group {
+    margin-bottom: -4px !important;
+}
+.navbar-modife .lngg .dropdown-toggle::after {
+    margin-left: -5px !important;
+}
+.sub-head{
+    background: #E9EAE7;
+    padding: 25px;
+    margin-bottom: 60px;
+}
+.sub-head a{
+    color: #677B44;
+    font-size: 14px;
+    font-family: "inter-medium";
+    margin-right: 4px;
+}
+.sub-head p{
+    color: #B5B5B5;
+    font-size: 14px;
+    font-family: "inter-medium";
+}
+.card-connection {
+    width: fit-content;
+    margin: 0 auto;
+}
+.card-connection .title-connexion{
+    color: #010101;
+    text-align: center;
+    font-size: 25px;
+    font-family: "inter-bold";
+    margin-top: 10px;
+}
+.card-connection {
+    min-width: 430px !important;
+    margin-bottom: 80px;
+}
+.card-connection .text-forget a{
+    color: #677B44 !important;
+    font-size: 13px;
+    font-family: "inter-medium";
+}
+.card-connection .btn-se-connecter{
+    width: 100%;
+    border-radius: 5px;
+    background: #9C0;
+    padding: 13px 10px;
+    margin: 16px 0px 25px;
+    color: #2A3C31 !important;
+}
+.card-connection .text-no-compte{
+    color: #677B44;
+    font-size: 15px;
+    font-family: "inter-medium";
+    width: 100%;
+    display: block;
+    margin-bottom: 35px;
+}
+.card-connection .text-Se-connecter{
+    text-align: center;
+    color: #272727;
+    font-size: 15px;
+    font-family: "inter-medium";
+}
+.card-connection .btn-sociaux{
+    border-radius: 16px;
+    background: rgba(153, 204, 0, 0.10);
+    padding: 15px 18px;
+    margin: 0 10px;
+}
+.card-connection .form-group {
+    margin-bottom: 26px !important;
+}
+.card-connection .form-group input{
+    border-radius: 4px !important;
+    border-color: #99cc02 !important;
+    padding: 15px 15px !important;
+    min-height: 47px !important;
+}
+.card-connection .card-body {
+    padding: 20px 35px !important;
+}
+.footer{
+    background: rgba(42, 60, 49, 0.74);
+    padding: 70px 0 40px;
+    color: white;
+}
+.footer .img-footer{
+    margin-bottom: 25px;
+}
+.footer .description{
+    margin-bottom: 25px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.52);
+}
+.footer .element-infos{
+    margin-bottom: 15px;
+}
+.footer .liste-element-pme {
+    padding-left: 12px;
+}
+.footer .liste-element-pme li{
+   list-style: none;
+    margin-bottom: 15px;
+}
+.footer .liste-element-pme li a, .footer p{
+    color: rgba(255, 255, 255, 0.70) !important;
+}
+.footer .title-footer {
+    font-family: "inter-semi-bold";
+    font-size: 18px;
+    margin-bottom: 24px;
+    color: white !important;
+}
+.btn-abonement {
+    border-radius: 8px !important;
+    background: #F5C362 !important;
+    min-width: 80% !important;
+    padding: 13px 5px !important;
+    margin-top: 15px !important;
+}
+.sub-footer {
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.60);
+}
+.footer .sub-footer .text-subFooter, .footer .sub-footer a{
+    margin: 0 13px;
+    font-weight: 200;
+}
+.footer .element-infos img {
+    margin-right: 10px;
+}
+.content-head{
+    background: #2A3C31;
+    padding: 60px 0 55px;
+}
+.content-head .title{
+    color: #EFEFEF;
+    font-size: 36px;
+    font-style: normal;
+    font-family: "inter-bold";
+    line-height: 47px;
+    margin-right: 65px;
+}
+.content-head .description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-family: "inter-medium";
+    line-height: 28px;
+}
+.content-head .nom-pays{
+    color: #9C0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.content-head img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.sub-title {
+    color: #2A3C31;
+    font-size: 24px;
+    font-family: "inter-semi-bold";
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-caption {
+    right: unset !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    text-align: left !important;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(42, 60, 49, 0.00) 0%, #2A3C31 100%);
+}
+.bottom-align {
+    position: absolute;
+    bottom: 0;
+    left: 35px;
+    right: 0;
+}
+.bottom-align h2 {
+    color: #9C0;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.bottom-align p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "inter-semi-bold";
+}
+.carousel-indicators {
+    right: 30px !important;
+    bottom: 0 !important;
+    left: unset !important;
+    padding-left: 0 !important;
+    margin-right: 0% !important;
+    margin-left: unset !important;
+}
+.carousel-indicators li {
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 100%;
+}
+.form-recherche-rapide {
+    border: 1px solid #D8D8D8;
+    background: #FFF;
+    padding: 30px;
+    border-radius: 17px;
+}
+.btn-recherche{
+    border-radius: 12px;
+    background: #F5C362 !important;
+    width: 100%;
+    padding: 11px !important;
+    margin-top: 20px;
+}
+.btn-recherche img{
+    height: 19px;
+    margin: -2px 9px 0 0;
+}
+.card-opportunite, .card-opportunite-financement{
+    border-radius: 6px;
+    background: #FFF;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card-opportunite .head .pays img{
+    height: 17px;
+    margin-right: 3px;
+}
+.card-opportunite .head .pays p{
+    color: #2A3C31;
+    font-size: 12px;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.sub-categorie{
+    color: #476B47;
+    font-size: 16px;
+    font-family: "inter-medium";
+    margin-bottom: 0;
+}
+.secteur-title{
+    color: #B4B4B4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.description-opportinute{
+    color: #2A3C31;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "inter-semi-bold";
+    line-height: 28px;
+    margin: 15px 0 20px;
+}
+.content-body-home{
+    background: white;
+    padding: 70px 0;
+}
+.margin-element{
+    margin: 0 45px;
+}
+.footer-card .btn {
+    color: #677B44;
+    font-size: 14px;
+    line-height: normal;
+    font-family: "inter-semi-bold";
+}
+.footer-card img {
+    height: 24px;
+}
+.section-last-opportunite, .section-evenement-secteur {
+    padding: 65px 0;
+}
+.btn-voir-tout{
+    color: #000 !important;
+    font-size: 14px !important;
+    font-family: "inter-semi-bold";
+    border-radius: 8px !important;
+    background-color: #9C0 !important;
+    display: block !important;
+    padding: 17px 36px !important;
+    width: fit-content;
+    margin: 50px auto 10px;
+}
+.card-secteur-opportinute{
+    border-radius: 10px;
+    background: #F4F9E1;
+    padding: 20px 25px;
+    width: fit-content;
+    min-width: 23%;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.card-secteur-opportinute .block-img{
+    width: 44px;
+    height: 44px;
+    margin-right: 13px;
+}
+.card-secteur-opportinute .block-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-secteur-opportinute .name{
+    color: #677B44;
+    font-size: 16px;
+    font-family: "inter-semi-bold";
+    margin-bottom: 1px;
+}
+.card-secteur-opportinute .number-opportunity{
+    color: #6C6C6C;
+    font-size: 14px;
+    font-family: "inter-medium";
+    margin-bottom: 0;
+}
+.section-opportunite-pays{
+    background: #2A3C31;
+    padding: 70px 0;
+}
+.card-pays{
+    border-radius: 8px;
+    border: 1px solid rgba(236, 245, 205, 0.20);
+    padding: 16px;
+    margin-bottom: 30px;
+}
+.card-pays .flag{
+    height: 28px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.card-pays .name{
+    color: #ECF5CD;
+    font-size: 20px;
+    font-family: "inter-semi-bold";
+    margin-bottom: 2px;
+}
+.card-pays .number-opportunity{
+    color: #EFEFEF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.card-pays a{
+    color: #9C0;
+    font-size: 13px;
+    font-family: "inter-medium";
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+.card-opportunite-financement .block-img{
+    width: 57px;
+    height: 57px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.card-opportunite-financement .block-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-opportunite-financement .title-financement{
+    color: #2A3C31;
+    font-size: 18px;
+    font-family: "inter-semi-bold";
+    line-height: 28px;
+    margin-bottom: 3px;
+}
+.card-opportunite-financement .name-pays{
+    color: #2A3C31;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+.card-ressources-financement .name-pays{
+    color: #2A3C31;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+.structure{
+    color: #476B47;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.card-ressources-financement{
+    border-radius: 6px;
+    border: 1px solid #ECF5CD;
+    background: #FFF;
+    padding: 25px;
+    width: 32%;
+    margin-right: 12px;
+    height: 100%;
+}
+.card-ressources-financement .head{
+    margin-bottom: 18px;
+    align-items: center;
+}
+.card-ressources-financement .title{
+    color: #2A3C31;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "inter-semi-bold";
+    margin-bottom: 5px;
+}
+.card-ressources-financement .description{
+    color: #646464;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.card-ressources-financement a{
+    color: #476B47;
+    font-size: 14px;
+    font-family: "inter-semi-bold";
+    line-height: 24px;
+}
+.section-partenaires-financement .carousel-inner .carousel-item.active,
+.section-partenaires-financement .carousel-inner .carousel-item-next,
+.section-partenaires-financement .carousel-inner .carousel-item-prev {
+    display: flex !important;
+}
+.section-partenaires-financement .carousel-inner .carousel-item-right,
+.section-partenaires-financement .carousel-inner .carousel-item-left{
+    transform: translateX(0) !important;
+}
+.section-partenaires-financement .card-partenaire-de-financement{
+    height: 100px;
+    background: #FFFFFF;
+}
+.section-partenaires-financement .card-partenaire-de-financement img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-partenaires-financement{
+    background: #EFEFEF;
+    padding: 70px 0;
+}
+.section-partenaires-financement .carousel-control-prev {
+    left: -55px;
+    opacity: 1;
+}
+.section-partenaires-financement .carousel-control-next{
+    right: -55px;
+    opacity: 1;
+}
+.card-element-accompagnement-pme{
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    background: white;
+}
+.bg-grid {
+    background: #EFEFEF !important;
+}
+.card-element-accompagnement-pme .block-img{
+    border-radius: 60px;
+    border: 1px solid #B4B4B4;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+}
+.card-element-accompagnement-pme .block-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.card-element-accompagnement-pme .name-structure{
+    color: #272727;
+    font-size: 17px;
+    font-family: "inter-semi-bold";
+    margin-bottom: 0;
+}
+.card-element-accompagnement-pme {
+    border-radius: 8px;
+    border: 1px solid #89c025;
+    width: 31%;
+    margin-right: 15px;
+}
+.card-element-accompagnement-pme .categori {
+    margin-bottom: 0;
+    color: #6C6C6C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+}
+.block-consultant{
+    margin-bottom: 30px;
+}
+.btn-sauvegarde{
+    height: fit-content;
+}
+.btn-inscrire{
+    margin: 0 11px;
+}
+.card-evenement-a-venir span{
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    background: #89c025;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.card-evenement-a-venir .description-opportinute {
+    margin: 0px 0 8px;
+}
+.card-evenement-a-venir .firstBlock{
+    width: 66%;
+}
+.section-opportunite-pays .sub-title {
+    color: #ffffff;
+}
+.element-nav{
+    color: #677B44;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 15px;
+}
+.content-head-detail {
+    padding: 25px 0 30px;
+}
+.title-detail-offre {
+    color: #272727;
+    font-size: 32px;
+    line-height: 45px;
+    font-family: "inter-bold";
+    margin-bottom: 30px;
+}
+.description-detail-offre{
+    color: #646464;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 33px;
+}
+.card-detail-activite {
+    border-radius: 10px;
+    border: 1px solid #9C0;
+    background: #FFF;
+    padding: 30px 25px;
+}
+.card-detail-activite .title {
+    color: #6C6C6C;
+    font-size: 14px;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: "inter-medium";
+    margin-bottom: 3px;
+}
+.card-detail-activite .sub-block .sub-title {
+    font-family: "inter-semi-bold";
+    color: #2A3C31;
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.card-detail-activite .sub-block {
+    margin-bottom: 30px;
+}
+.element-doc img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.element-doc .name{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-bottom: 2px;
+    color: #272727;
+    font-size: 15px;
+}
+.element-doc .number-mb{
+    color: #B4B4B4;
+    font-size: 13px;
+    line-height: normal;
+    font-family: "inter-semi-bold";
+}
+.piece-jointe-block .title{
+    margin: 50px 0 20px;
+}
+.card-partage{
+    border-radius: 8px;
+    background: #2A3C31;
+    padding: 22px 20px;
+    margin: 30px 0 35px;
+}
+.card-partage p{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: normal;
+    font-family: "inter-semi-bold";
+    margin-bottom: 0;
+}
+.card-partage a {
+    margin: 0 8px;
+}
+.block-img-marketing{
+    width: 100%;
+    height: 232px;
+    border-radius: 10px;
+}
+.block-img-marketing img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-appel-offres{
+    border-radius: 6px;
+    border: 1px solid #9C0;
+    background: #FFF;
+    padding: 20px;
+    width: 32%;
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+.card-appel-offres .pays img{
+    height: 20px;
+    margin-right: 11px;
+}
+.card-appel-offres .pays .name-pays{
+    color: #2A3C31;
+    font-size: 15px;
+    font-family: "inter-medium";
+    text-transform: uppercase;
+}
+.title-card-appel-offres {
+    font-family: "inter-semi-bold";
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+.card-appel-offres .secteur-title {
+    font-size: 12px;
+}
+.card-appel-offres .sub-categorie {
+    font-size: 14px;
+}
+.element-detail-financement {
+    margin-right: 13px;
+    width: 45%;
+    margin-bottom: 15px;
+}
+.content-appels-offres {
+    margin-top: 50px;
+}
+.blockFirstTabs{
+    border-radius: 10px;
+    border: 1px solid #9C0;
+    background: #2A3C31;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    height: fit-content;
+}
+.blockFirstTabs a {
+    color: #FFFFFF !important;
+}
+.blockFirstTabs .nav-pills .nav-link.active, .blockFirstTabs .nav-pills .show>.nav-link {
+    background-color: unset;
+    color: #9C0 !important;
+    font-size: 17px;
+    font-family: "inter-semi-bold";
+}
+.section-first-profil{
+    padding: 50px 0;
+}
+.block-detail-profil{
+    border-radius: 10px;
+    border: 1px solid #ECF5CD;
+    background: #EFEFEF;
+    padding: 32px 25px;
+    margin-bottom: 25px;
+}
+.block-detail-profil .name{
+    color: #272727;
+    font-size: 24px;
+    font-family: "inter-semi-bold";
+    margin-bottom: 1px;
+}
+.block-detail-profil .profession{
+    color: #6C6C6C;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.block-detail-profil .btn-modifier{
+    padding: 11px 16px !important;
+    border-radius: 88px;
+    background: #2A3C31;
+    color: #9C0;
+    font-size: 12px;
+}
+.block-detail-profil .btn-modifier:hover{
+    color: #9C0 !important;
+}
+.expire-block p{
+    color: #6C6C6C;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+.expire-block a{
+    font-size: 13px;
+    color: #9C0 !important;
+    font-family: "inter-medium";
+}
+.other-block-detail .content-block{
+    width: 33%;
+    margin-bottom: 20px;
+}
+.other-block-detail .content-block .label-title{
+    color: #6C6C6C;
+    font-size: 14px;
+    font-family: "inter-medium";
+    margin-bottom: 1px;
+}
+.other-block-detail .content-block .content{
+    color: #000;
+    font-size: 16px;
+    font-family: "inter-semi-bold";
+    margin-bottom: 0;
+}
+#navbarSupportedContent {
+    padding-top: 7px;
+}
+
+@media (min-width: 300px) and (max-width: 767px){
+    body {
+        overflow-y: scroll !important;
+    }
+    .card-connection {
+        min-width: unset !important;
+        margin-bottom: 80px;
+        width: 95%;
+    }
+    .col-element {
+        margin-bottom: 25px;
+    }
+    .content-head .title {
+        font-size: 22px;
+        line-height: 34px;
+        margin-right: 0px;
+    }
+    .content-body-home .carousel {
+        margin-bottom: 50px;
+    }
+    .bottom-align p {
+        font-size: 23px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .head {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .card-opportunite .sub-categorie {
+        font-size: 15px;
+        margin: 0 7px;
+    }
+    .card-opportunite .description-opportinute {
+        color: #2A3C31;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .card-opportunite .d-flex{
+       width: 100%;
+        flex-wrap: wrap;
+    }
+    .card-opportunite .element-footer {
+        width: 100%;
+        margin: 0 0 10px;
+        display: flex;
+        align-items: center;
+    }
+    .footer-card{
+        flex-wrap: wrap;
+    }
+    .card-secteur-opportinute {
+        width: 100%;
+        margin-right: 0;
+    }
+    .card-opportunite-financement {
+        flex-wrap: wrap;
+    }
+    .section-last-opportunite .card-opportunite-financement .element-detail-financement {
+        margin-top: 20px;
+    }
+    .card-ressources-financement {
+        width: 100%;
+        margin-right: 0px;
+        height: fit-content;
+        margin-bottom: 30px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .card-element-accompagnement-pme {
+        width: 100%;
+        margin-right: 0;
+    }
+    .sub-title {
+        font-size: 21px;
+        font-family: "inter-semi-bold";
+    }
+    .bg-grid .card-evenement-a-venir{
+        flex-wrap: wrap;
+    }
+    .card-evenement-a-venir .firstBlock {
+        width: 100%;
+    }
+    .card-evenement-a-venir .d-flex{
+        flex-wrap: unset;
+    }
+    .card-evenement-a-venir .firstBlock   .d-flex{
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    .content-head-detail .d-flex {
+        flex-wrap: wrap;
+    }
+    .title-detail-offre {
+        color: #272727;
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .card-appel-offres {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .blockFirstTabs {
+        margin: 0 16px 35px;
+    }
+    .block-detail-profil {
+        flex-wrap: wrap;
+    }
+    .expire-block {
+        margin-top: 28px;
+    }
+    .other-block-detail .content-block {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+
+    .nav-tabs .nav-link.active {
+        color: #495057;
+        background-color: #9C0  !important;
+        border-color: #dee2e6 #dee2e6 #fff;
+    }
+
+    #myTabs a {
+        background-color: #9C0 !important;
+        color:#fff;
+    }
+}
